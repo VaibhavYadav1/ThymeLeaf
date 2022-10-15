@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns : th = "http://www.thymeleaf.org/">
+<head>
+<meta charset="ISO-8859-1">
+<title>Student Data</title>
+</head>
+<body>
+<h1>Student Details:</h1>
+
+<!--<h2>Name : </h2>   -->
+Name : <b th:text = "${students.name}" ></b>
+
+<h2>Score : </h2>
+<b th:text = "${students.score}" ></b>
+
+<h2>Total Marks: </h2>
+<b th:text = "${students.total_marks}"></b>
+
+<h2>Remark : </h2>
+<b th:text = "${students.remark}"></b>
+
+</body>
+</html>
